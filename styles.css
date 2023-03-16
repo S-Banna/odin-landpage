@@ -1,0 +1,89 @@
+.headerflex {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+    color: white;
+    padding-bottom: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    row-gap: 20px;
+}
+
+.headrow1 {
+    display: flex;
+    flex: 1 1 50%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 400px;
+}
+
+.headrow2 {
+    display: flex;
+    flex: 1 1 50%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 260px;
+}
+
+.big {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+.small {
+    font-size: 16px;
+    margin-top: 10px;
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.headlist {
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.headlinks {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.headbutton {
+    background-color: #3882F6;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    margin: 0;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all .2s ease-in;
+}
+
+:hover.headbutton {
+    background-color: white;
+    color: #3882F6;
+    transition: all .2s ease-in;
+}
+
+.suptextcont {
+    display: flex;
+    flex-direction: column;
+}
+
+.pholder {
+    width: 400x;
+    height: 250px;
+}
