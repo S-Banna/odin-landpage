@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .headerflex {
     display: flex;
     flex: 1;
@@ -86,4 +91,52 @@
 .pholder {
     width: 400x;
     height: 250px;
+}
+
+.bodyflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+    gap: 60px;
+}
+
+.bodytitle {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.bodyimagescont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 240px;
+    flex: 1 1 0;
+    margin: 0px 50px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 0px 100px;
+    margin: 0;
+    width: 86.7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotetext {
+    padding: 80px 300px 0px 300px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quotetag {
+    margin: 0;
+    font-size: 20px;
+    align-self: flex-end;
+    margin-right: 300px;
 }
