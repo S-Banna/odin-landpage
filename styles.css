@@ -112,9 +112,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 240px;
+    gap: 120px;
     flex: 1 1 0;
-    margin: 0px 50px;
+    margin: 0px 10000px;
 }
 
 .quote {
@@ -139,4 +139,66 @@ body {
     font-size: 20px;
     align-self: flex-end;
     margin-right: 300px;
+}
+
+.signupbody {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    gap: 100px;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.signuptext{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+
+.signuptextbig {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.signuptextsmall {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.signupblue {
+    background-color: #3882F6;
+    border-color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    transition: all .2s ease-in;
+}
+
+.signupblue:hover {
+    color: #3882F6;
+    border-color: #3882F6;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 900;
+    transition: all .2s ease-in;
+}
+
+.bodyfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 80px;
 }
